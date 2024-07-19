@@ -1,0 +1,110 @@
+// function func1(){
+//     return 2
+// }
+
+// function func2(){
+//     return 4
+// }
+
+// let a = (func1(), func2())
+
+// console.log(a);
+
+
+// const arr = ['one', 'two', 'three'];
+// const str = 'Hello';
+
+// const res = arr.includes('one')
+// const anotherVar = arr.includes('onetwo')
+// const newVar = str.includes('ll')
+
+// console.log(res);
+// console.log(anotherVar);
+// console.log(newVar);
+
+// console.log(true === '');
+// console.log('1' == 1);
+
+// let a=10;
+// let b=new Number(10);
+// let c=10
+
+// console.log(a === b);
+
+// let a={name:'Adarsh', b:{c:10}};
+// let z={...a}; // {name:'Adarsh'}
+// z.b.c="Adil"; // {name:'Adil'}
+// console.log(a.name); // {name:'Adarsh'}
+
+// console.log(+true);
+// console.log(!"xyz");
+
+
+// function curryFunction(a){
+//     return function(b){
+//         const mult = a*b;
+//         return function(c){
+//             return res = mult*c
+//         }
+//     }
+// }
+
+// console.log(curryFunction(2)(3)(2)); 
+
+// Hello, World123
+// string 3 = "Hweolrllod"
+
+// function mergeTwoStrings(str1,str2){
+//     let res = '';
+//     let m;
+//     for(let i = 0; i<str1.length && i<str2.length; i++){
+//         res = res+str1[i] + str2[i];  // HWeo
+//         m = i
+//     }
+
+//     while(m<str1.length || m<str2.length){
+//         if(m<str1.length && m !== str1.length){
+//             res = res+str1[m];
+//             m++;
+//         }else{
+//             res = res+str2[m];
+//             m++;
+//         }
+//     }
+//     return res
+// }
+
+// console.log(mergeTwoStrings("Hello","World12")); 
+
+
+sum(2,4)
+sum(2)(4)
+
+function sum(a,b){
+    if(b == undefined){
+        return function (c){
+            console.log(a+c);
+        }
+    }
+    console.log(a+b); 
+}
+
+
+// const arr = [[1,2],[3,4],[5,6]]
+// const res = []
+
+// function flattenTheArray(val,res){
+    
+//     for(let i = 0; i< val.length;i++){
+//         if(Array.isArray(val[i])){
+//             flattenTheArray(val[i], res)
+//         }
+//         else{
+//             res.push(val[i]);
+//         }
+//     }
+//     return res
+    
+// }
+
+// console.log(flattenTheArray(arr,res));  
